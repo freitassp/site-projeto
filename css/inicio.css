@@ -1,0 +1,155 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    word-break: keep-all;
+    white-space: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* Estilos para os Itens do Header */
+header {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    background-color: #34568B;
+}
+
+#logo {
+    display: block;
+}
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0;
+}
+.menu a {
+    text-decoration: none;
+}
+
+#download img {
+    margin-top: 2px;
+    margin-left: -4px;
+    width: 20px;
+    height: auto;
+}
+button#download {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: #672ab8;
+    border: 1px solid #00ccff;;
+    border-radius: 10px;
+    padding: 8px 10px; 
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Skranji', cursive;
+    cursor: pointer;
+}
+
+button#start,
+button#sobre {
+    color: white;
+    background: none; 
+    border: none;
+    padding: 20px 15px; 
+    font-family: 'Skranji', cursive;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* Estilos para o conteúdo principal */
+section {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+/* Estilos dos Textos da Sinopse */
+#sinopse {
+    padding: 20px;
+    position: relative;
+    background-color: #34568B;
+    border: 3px solid #00ccff;
+}
+#michael {
+    position: absolute;
+    top: 39px; /* Ajuste a posição vertical conforme necessário */
+    left: 15%; /* Ajuste a posição horizontal conforme necessário */
+    z-index: 1; /* Define um índice de sobreposição positivo para ficar acima do plano de fundo */
+}
+h1#history { /* Estilo para a História */
+    display: block;
+    position: relative; /* Adiciona posicionamento relativo aos elementos internos */
+    margin-top: 5px;
+    font-family: 'Skranji', cursive;
+    font-size: 32px; 
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* borda do texto (inativa) */
+    color: black;
+    z-index: 1; /* Define a ordem de sobreposição (valores maiores ficam por cima de valores menores) */
+}
+p#sinopse { /* Estilo para as Informações */
+    display: block;
+    position: relative; /* Adiciona posicionamento relativo aos elementos internos */
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 60px;
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 1; /* Define a ordem de sobreposição (valores maiores ficam por cima de valores menores) */
+}
+
+/* Estilos dos Textos abaixo da sinopse */
+#objetivo,
+#progrecao {
+    margin: 2%;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h2 {
+    font-family: 'Skranji', cursive;
+    font-size: 28px;
+    margin-top: -5px;
+    -webkit-text-stroke: 1px black; /* borda do texto (inativa) */
+    color: #00ccff;
+}
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Estilos para o rodapé */
+footer {
+    margin-top: 60px;
+    background-color: #34568B;
+    padding: 10px;
+}
+#direitos {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
